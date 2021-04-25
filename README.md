@@ -1,2 +1,1 @@
-# wc-logo
 # wc-sudoku
