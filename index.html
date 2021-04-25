@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="prototype - a simple Web Component Sudoku demo generated with Stencil"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100&font-display=swap"
+    />
+    <title>ProtoLogo 0.0.7</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/proto-sudoku-wc@0.0.7/dist/proto-sudoku-wc/proto-sudoku-wc.esm.js"
+    ></script>
+    <style>
+      :root {
+        --clrs-navy: #001f3f;
+        --clrs-blue: #0074d9;
+        --clrs-aqua: #7fdbff;
+        --clrs-teal: #39cccc;
+        --clrs-olive: #3d9970;
+        --clrs-green: #2ecc40;
+        --clrs-lime: #01ff70;
+        --clrs-yellow: #ffdc00;
+        --clrs-orange: #ff851b;
+        --clrs-red: #ff4136;
+        --clrs-maroon: #85144b;
+        --clrs-fuchsia: #f012be;
+        --clrs-purple: #b10dc9;
+        --clrs-black: #111111;
+        --clrs-gray: #aaaaaa;
+        --clrs-silver: #dddddd;
+
+        --clrs-bada55: #bada55;
+        --clrs-slate: #708090;
+        --clrs-slate4: #4e5964;
+        --clrs-white: #ffffff;
+      }
+
+      body {
+        font-family: 'Roboto', Helvetica, sans-serif;
+        color: var(--clrs-white);
+        background-color: var(--clrs-black);
+      }
+      .container {
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <proto-sudoku />
+  </body>
+</html>
