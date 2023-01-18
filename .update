@@ -18,6 +18,5 @@ else
 
   git commit -a -m "bump $VERSION"
   git push
-  vc
   vc --prod
 fi
